@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 1px 1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 1;
+}
+.navbar-toggler{
+    color: blueviolet;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.nav-item .nav-link:hover {
+    color: blueviolet;
+    transition: 0.5 all ease;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px;
+}
+
+.navbar-brand:hover {
+    color: blueviolet;
+    transition: .5s all ease;
+}
+
+.navbar-brand span {
+    color: darkviolet;
+}
+
+#btn1 {
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#btn1:hover {
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    transition: .5s;
+}
+
+#hero {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./images/home\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h3 {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+#hero h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#hero p {
+    font-size: 17px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.change-content::after {
+    content: '';
+    color: blueviolet;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0% {
+        content: "Lagos";
+    }
+
+    10% {
+        content: "Oyo";
+    }
+
+    20% {
+        content: "Ondo";
+    }
+
+    30% {
+        content: "Ekiti";
+    }
+
+    40% {
+        content: "Osun";
+    }
+
+    60% {
+        content: "Ogun";
+    }
+}
+
+#hero a {
+    color: black;
+    background-color: azure;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+#hero a:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: .5s;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#book{
+    background-color:whitesmoke;
+}
+.maintext{
+    font-size: 40px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    color: blueviolet;
+
+}
+#book .card{
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+#book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px;
+}
+#book form textarea{
+    border: none;
+    border-radius: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+#book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background:blueviolet;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+    margin-top: 20px;
+
+}
+#book .submit:hover{
+    background-color: transparent;
+    border: solid 2px blueviolet;
+    color: blueviolet;
+ 
+}
+#places{
+    background-color: white;
+}
+.card{
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+
+}
+.card:hover{
+    transform: translateX(5px);
+    transition: .5s;
+}
+#place h2{
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+#place p{
+    font-size: 16px;
+    font-weight: 50;
+    text-align: justify;
+}
+#place h3{
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#btn2{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    transition: .5s;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#btn2:hover{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    transition: .5s;
+    background-color: transparent;
+}
+#services h3{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#services p{
+    font-size: 14px;
+}
+#gallery .card{
+    transition: 0.5s;
+}
+#gallery .card:hover{
+    transform: scale(1.1);
+}
+#gallery .card img{
+    border-radius: 10px;
+}
+#about h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+#about p{
+    font-size: 16px;
+    font-weight: 100;
+}
+#about-btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    transition: .5s;
+    border: none;
+}
+.social-icon #icon{
+    margin: 5px;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color:blueviolet;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: #f9f9f9;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background-color: blueviolet;
+}
+.credit h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+@media (max-width:768px){
+    .navbar-brand {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .nav-item .nav-link {
+        font-size: 16px;
+    
+    }
+    #btn1 {
+        font-size: 16px;
+    }
+    #hero h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    #hero h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    #hero p {
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    #hero a {
+        padding: 10px;
+        font-size: 16x;
+    }
+    .maintext{
+        font-size: 30px;
+        font-weight: 500;
+    
+    }
+    #book form input{
+        font-size: 14px;
+    }
+    #book form textarea{
+        height: 100px;
+    }
+    #book .submit{
+        width: 140px;
+        font-size: 14px;
+        font-weight: 500;
+    
+    }
+    #place h2{
+        font-size: 16px;
+        
+    }
+    #place p{
+        font-size: 14px;
+    }
+    #place h3{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #btn2{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #services h3{
+        font-size: 18px;
+        font-weight: 400;
+    
+    }
+    #services p{
+        font-size: 12px;
+    }
+    #about h3{
+        font-size: 23px;
+        font-weight: 500;
+    }
+    #about p{
+        font-size: 14px;
+    }
+    #about-btn{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #about-btn{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #footer h1{
+        font-weight: 500;
+        padding-top: 25px;
+    }
+    .credit h2{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #footer p{
+        font-size: 15px;
+    }
+        
+}
+@media (max-width:320px){
+    .navbar-brand {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #hero h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    #hero h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    #hero p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+
