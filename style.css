@@ -24,8 +24,13 @@ body {
 }
 
 .nav-item .nav-link {
+<<<<<<< HEAD
     font-size: 16px;
     font-weight: 400;
+=======
+    font-size: 18px;
+    font-weight: 500;
+>>>>>>> ac81d9bf2174864c5a80e471dd8a76593761976e
     color: black;
 
 }
@@ -165,7 +170,11 @@ section {
 }
 #book form input{
     padding: 10px;
+<<<<<<< HEAD
     color: blueviolet;
+=======
+    color: black;
+>>>>>>> ac81d9bf2174864c5a80e471dd8a76593761976e
     border: none;
     outline: none;
     font-size: 15px;
