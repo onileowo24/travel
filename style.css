@@ -357,7 +357,9 @@ section {
     }
 
     .nav-item .nav-link {
-        font-size: 16px;
+        font-size: 15px;
+        color: black;
+        font-weight: 300;
 
     }
 
@@ -490,6 +492,7 @@ section {
     #hero p {
         font-size: 14px;
     }
+    
 
 
 }
