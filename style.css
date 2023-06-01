@@ -14,7 +14,8 @@ body {
     line-height: 1.5;
     letter-spacing: 1;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: blueviolet;
 }
 
@@ -24,16 +25,11 @@ body {
 }
 
 .nav-item .nav-link {
-<<<<<<< HEAD
     font-size: 16px;
     font-weight: 400;
-=======
-    font-size: 18px;
-    font-weight: 500;
->>>>>>> ac81d9bf2174864c5a80e471dd8a76593761976e
     color: black;
-
 }
+
 
 .nav-item .nav-link:hover {
     color: blueviolet;
@@ -154,34 +150,34 @@ section {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#book{
-    background-color:whitesmoke;
+
+#book {
+    background-color: whitesmoke;
 }
-.maintext{
+
+.maintext {
     font-size: 40px;
     font-weight: 550;
     letter-spacing: 1px;
     color: blueviolet;
 
 }
-#book .card{
+
+#book .card {
     box-shadow: var(--box-shadow);
     border-radius: 10px;
 }
-#book form input{
-    padding: 10px;
-<<<<<<< HEAD
+
+#book form input {
     color: blueviolet;
-=======
-    color: black;
->>>>>>> ac81d9bf2174864c5a80e471dd8a76593761976e
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px;
 }
-#book form textarea{
+
+#book form textarea {
     border: none;
     border-radius: none;
     border-radius: 10px;
@@ -189,56 +185,66 @@ section {
     box-shadow: 0px 5px 5px -6px black;
     height: 200px;
 }
-#book .submit{
+
+#book .submit {
     width: 160px;
     font-size: 16px;
+    padding: 10px;
     font-weight: 550;
-    background:blueviolet;
+    background: blueviolet;
     color: white;
-    margin-top: 10px;
     transition: 0.5s;
     margin-top: 20px;
+    border: none;
 
 }
-#book .submit:hover{
+
+#book .submit:hover {
     background-color: transparent;
     border: solid 2px blueviolet;
     color: blueviolet;
- 
+
 }
-#places{
+
+#places {
     background-color: white;
 }
-.card{
+
+.card {
     box-shadow: var(--box-shadow);
     cursor: pointer;
     transition: .5s;
     border-radius: 10px;
 
 }
-.card:hover{
+
+.card:hover {
     transform: translateX(5px);
     transition: .5s;
 }
-#place h2{
+
+#place h2 {
     font-size: 25px;
     color: blueviolet;
     font-weight: 500;
     letter-spacing: 1px;
-    
+
 }
-#place p{
+
+#place p {
     font-size: 16px;
     font-weight: 50;
     text-align: justify;
 }
-#place h3{
+
+#place h3 {
     font-size: 25px;
     color: blueviolet;
     font-weight: 500;
     letter-spacing: 1px;
 }
-#btn2{
+
+#btn2 {
     padding: 10px;
     background-color: blueviolet;
     color: white;
@@ -248,38 +254,47 @@ section {
     font-weight: 500;
     border-radius: 5px;
 }
-#btn2:hover{
+
+#btn2:hover {
     color: blueviolet;
     border: 2px solid blueviolet;
     transition: .5s;
     background-color: transparent;
 }
-#services h3{
+
+#services h3 {
     font-size: 20px;
     font-weight: 500;
 
 }
-#services p{
+
+#services p {
     font-size: 14px;
 }
-#gallery .card{
+
+#gallery .card {
     transition: 0.5s;
 }
-#gallery .card:hover{
+
+#gallery .card:hover {
     transform: scale(1.1);
 }
-#gallery .card img{
+
+#gallery .card img {
     border-radius: 10px;
 }
-#about h3{
+
+#about h3 {
     font-size: 25px;
     font-weight: 500;
 }
-#about p{
+
+#about p {
     font-size: 16px;
     font-weight: 100;
 }
-#about-btn{
+
+#about-btn {
     font-size: 16px;
     font-weight: 500;
     padding: 10px;
@@ -288,28 +303,33 @@ section {
     transition: .5s;
     border: none;
 }
-.social-icon #icon{
+
+.social-icon #icon {
     margin: 5px;
     background-color: blueviolet;
     color: white;
     padding: 5px;
     border-radius: 5px;
 }
-#footer{
+
+#footer {
     width: 100%;
     margin-top: 150px;
     text-align: center;
     background: #f9f9f9;
 }
-#footer h1{
+
+#footer h1 {
     font-weight: 600;
     padding-top: 30px;
     text-shadow: 0px 0px 1px black;
 }
-#footer h1 span{
-    color:blueviolet;
+
+#footer h1 span {
+    color: blueviolet;
 }
-.social-links i{
+
+.social-links i {
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
@@ -320,113 +340,138 @@ section {
     transition: 0.5s ease;
     cursor: pointer;
 }
-.social-links i:hover{
+
+.social-links i:hover {
     background-color: blueviolet;
 }
-.credit h2{
+
+.credit h2 {
     font-size: 20px;
     font-weight: 500;
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
     .navbar-brand {
         font-size: 25px;
         font-weight: 500;
     }
+
     .nav-item .nav-link {
         font-size: 16px;
-    
+
     }
+
     #btn1 {
         font-size: 16px;
     }
+
     #hero h3 {
         font-size: 30px;
         font-weight: 500;
     }
-    
+
     #hero h1 {
         font-size: 40px;
         font-weight: 600;
     }
-    
+
     #hero p {
         font-size: 15px;
         font-weight: 100;
         letter-spacing: 1px;
     }
+
     #hero a {
         padding: 10px;
         font-size: 16x;
     }
-    .maintext{
+
+    .maintext {
         font-size: 30px;
         font-weight: 500;
-    
+
     }
-    #book form input{
+
+    #book form input {
         font-size: 14px;
     }
-    #book form textarea{
+
+    #book form textarea {
         height: 100px;
     }
-    #book .submit{
+
+    #book .submit {
         width: 140px;
         font-size: 14px;
         font-weight: 500;
-    
+
     }
-    #place h2{
+
+    #place h2 {
         font-size: 16px;
-        
+
     }
-    #place p{
+
+    #place p {
         font-size: 14px;
     }
-    #place h3{
+
+    #place h3 {
         font-size: 16px;
         font-weight: 400;
     }
-    #btn2{
+
+    #btn2 {
         font-size: 16px;
         font-weight: 400;
     }
-    #services h3{
+
+    #services h3 {
         font-size: 18px;
         font-weight: 400;
-    
+
     }
-    #services p{
+
+    #services p {
         font-size: 12px;
     }
-    #about h3{
+
+    #about h3 {
         font-size: 23px;
         font-weight: 500;
     }
-    #about p{
+
+    #about p {
         font-size: 14px;
     }
-    #about-btn{
+
+    #about-btn {
         font-size: 15px;
         font-weight: 400;
     }
-    #about-btn{
+
+    #about-btn {
         font-size: 15px;
         font-weight: 400;
     }
-    #footer h1{
+
+    #footer h1 {
         font-weight: 500;
         padding-top: 25px;
     }
-    .credit h2{
+
+    .credit h2 {
         font-size: 16px;
         font-weight: 400;
     }
-    #footer p{
+
+    #footer p {
         font-size: 15px;
     }
-        
+
 }
-@media (max-width:320px){
+
+@media (max-width:320px) {
     .navbar-brand {
         font-size: 20px;
         font-weight: 500;
@@ -436,20 +481,15 @@ section {
         font-size: 25px;
         font-weight: 500;
     }
-    
+
     #hero h1 {
         font-size: 35px;
         font-weight: 500;
     }
-    
+
     #hero p {
         font-size: 14px;
     }
 
 
 }
-
-
-
-
-
